@@ -65,12 +65,18 @@ Positional comparison tables summarizing key statistical findings.
 
 Optional interactive visualizations using Plotly or Seaborn.
 
+---
+
 # Tools and Technologies
 
 Python: Main programming language for data analysis and visualization.
+
 Pandas & NumPy: For data manipulation, cleaning, and numerical calculations.
+
 Matplotlib & Seaborn: For creating visualizations and statistical graphics.
+
 Scikit-learn & Statsmodels: For regression analysis and modeling.
+
 Jupyter Notebooks: For documenting and presenting the full analysis workflow.
 
 ---
