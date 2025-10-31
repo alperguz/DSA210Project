@@ -1,5 +1,4 @@
 # Correlation Between Premier League Players’ Market Values and Performance Statistics
-
 ---
 
 ## Project Idea
