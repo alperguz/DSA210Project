@@ -81,43 +81,30 @@ Jupyter Notebooks: For documenting and presenting the full analysis workflow.
 
 ---
 
-## 🔍 Analysis Plan
-1. **Exploratory Data Analysis (EDA)**  
-   - Distribution of player values by position  
-   - Correlation matrix between market value and performance stats  
-   - Scatter plots (e.g., goals vs. market value)
+# Expected Outcomes
 
-2. **Statistical Tests**  
-   - Pearson and Spearman correlation tests  
+Identification of statistically significant relationships between player performance metrics (such as goals, assists, and pass accuracy) and end-of-season market values.
 
-3. **Modeling (optional)**  
-   - Multiple Linear Regression to estimate which stats influence market value  
+Assessment of which performance statistics have the strongest influence on player valuation across different positions.
 
----
+Development of a regression-based model that predicts a player’s estimated market value using statistical and performance data.
 
-## 📊 Expected Results
-- Offensive players’ values likely correlate strongly with goals and assists  
-- Defensive or goalkeeper metrics may influence value differently  
-- Age and potential may add hidden variance not captured by statistics  
+Insight into how positional roles (forwards, midfielders, defenders, goalkeepers) affect valuation patterns.
+
+A framework for future research into data-driven valuation modeling in professional football analytics.
 
 ---
 
-## ⚙️ Tools & Libraries
-Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Statsmodels • BeautifulSoup • Requests  
+# Potential Challenges
+
+Inconsistencies in data collection and reporting between sources (Transfermarkt vs. FBref).
+
+Missing or incomplete statistics for certain players (e.g., substitutes or injured players).
+
+Difficulty in controlling for non-performance factors (such as player age, contract length, or reputation).
+
+Distinguishing correlation from causation — high-performing players may attract higher market values due to external factors.
+
+Handling potential data bias in market value estimates (media attention or transfer rumors may inflate values).
 
 ---
-
-## 🗓️ Timeline
-
-| Date | Task |
-|------|------|
-| Oct 31 | Submit project proposal (README.md) |
-| Nov 28 | Data collection and EDA |
-| Jan 2 | Apply regression models |
-| Jan 9 | Final submission |
-
----
-
-## 🤝 Academic Integrity & AI Usage
-Parts of this README (structure and phrasing) were created with the help of **ChatGPT (GPT-5)**.  
-All data collection, coding, and analysis will be performed independently by **Muhammed Emir Acar**.
