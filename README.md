@@ -1,17 +1,8 @@
-# ⚽ Analyzing the Correlation Between Premier League Players’ Market Values and Performance Statistics
+Correlation Between Premier League Players’ Market Values and Performance Statistics
 
-**Author:** Alper Güz 
-**Course:** DSA 210 – Introduction to Data Science  
-**Term:** Fall 2025–2026  
+Project Idea
+This project aims to investigate the relationship between Premier League players’ performance statistics (such as goals, assists, pass accuracy, and defensive actions) and their end-of-season market values. I hypothesize that players with stronger on-field performance metrics will tend to have higher market valuations, though the strength of correlation may vary by position. By analyzing player data from public football databases like Transfermarkt and FBref, I intend to identify which performance indicators most strongly influence market value and whether certain player roles (e.g., attackers vs. defenders) exhibit different valuation patterns.
 
----
-
-## 🎯 Motivation
-Football has evolved into a data-driven sport where analytics guide transfers and contracts.  
-This project aims to explore how **on-field performance metrics**—such as goals, assists, pass accuracy, and defensive actions—correlate with **players’ end-of-season market values** in the English Premier League.  
-The goal is to identify which statistics most strongly influence valuation and whether performance justifies transfer prices.
-
----
 
 ## 📂 Data Sources
 1. **Player Market Values:** [Transfermarkt](https://www.transfermarkt.com/) — end-of-season market values  
