@@ -1,5 +1,4 @@
 # Correlation Between Premier League Players’ Market Values and Performance Statistics
----
 
 ## Project Idea
 This project aims to investigate the relationship between Premier League players’ performance statistics (such as goals, assists, pass accuracy, and defensive actions) and their end-of-season market values. I hypothesize that players with stronger on-field performance metrics will tend to have higher market valuations, though the strength of correlation may vary by position. By analyzing player data from public football databases like Transfermarkt and FBref, I intend to identify which performance indicators most strongly influence market value and whether certain player roles (e.g., attackers vs. defenders) exhibit different valuation patterns.
@@ -32,7 +31,6 @@ Club Performance: Team-level features such as league position or total team poin
 
 ## Plan
 
----
 **Data Collection**
 
 Player Market Value Data Sources:
@@ -67,7 +65,7 @@ Positional comparison tables summarizing key statistical findings.
 
 Optional interactive visualizations using Plotly or Seaborn.
 
-**Tools and Technologies**
+# Tools and Technologies
 
 Python: Main programming language for data analysis and visualization.
 Pandas & NumPy: For data manipulation, cleaning, and numerical calculations.
