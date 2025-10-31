@@ -10,22 +10,22 @@ The project will utilize two primary datasets:
 
 **Player Market Value Dataset:**  
 
-Player Name: The name of each Premier League player included in the dataset.
-Market Value (€): The estimated market value of the player at the end of the season, as recorded on Transfermarkt.
-Club Name: The Premier League team the player was registered with during the season.
-Player Position: The position category of the player (e.g., Forward, Midfielder, Defender, Goalkeeper).
-Season: The season year corresponding to the player’s market valuation.
-Age: The age of the player at the end of the season.
+- Player Name: The name of each Premier League player included in the dataset.
+- Market Value (€): The estimated market value of the player at the end of the season, as recorded on Transfermarkt.
+- Club Name: The Premier League team the player was registered with during the season.
+- Player Position: The position category of the player (e.g., Forward, Midfielder, Defender, Goalkeeper).
+- Season: The season year corresponding to the player’s market valuation.
+- Age: The age of the player at the end of the season.
 
 **Player Performance Statistics Dataset:**  
 
-Goals Scored: Total number of goals scored by the player during the season.
-Assists: Total number of assists provided by the player.
-Minutes Played: The total number of minutes the player was on the field.
-Pass Accuracy (%): Percentage of successful passes out of total attempted passes.
-Tackles and Interceptions: Defensive metrics representing ball recoveries and challenges won.
-Expected Goals (xG) and Expected Assists (xA): Advanced performance metrics representing quality of chances created or taken.
-Club Performance: Team-level features such as league position or total team points for contextual analysis.
+- Goals Scored: Total number of goals scored by the player during the season.
+- Assists: Total number of assists provided by the player.
+- Minutes Played: The total number of minutes the player was on the field.
+- Pass Accuracy (%): Percentage of successful passes out of total attempted passes.
+- Tackles and Interceptions: Defensive metrics representing ball recoveries and challenges won.
+- Expected Goals (xG) and Expected Assists (xA): Advanced performance metrics representing quality of chances created or taken.
+- Club Performance: Team-level features such as league position or total team points for contextual analysis.
 
 ---
 
@@ -33,21 +33,23 @@ Club Performance: Team-level features such as league position or total team poin
 
 **Data Collection**
 
-Player Market Value Data Sources:
+- Player Market Value Data Sources:
 Transfermarkt — for collecting end-of-season player market values, including player name, club, position, age, and estimated value in euros.
 
-Player Performance Statistics Data Source:
+- Player Performance Statistics Data Source:
 Kaggle – FBref Premier League 2024/25 Player Stats Dataset — for gathering player-level match performance metrics such as goals, assists, minutes played, xG, xA, pass accuracy, and defensive statistics.
 
 **Data Analysis Approach**
 
-Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
+  
+- Summary statistics and visual exploration of player performance metrics.
+  
+- Scatter plots comparing player statistics to market value.
 
-Summary statistics and visual exploration of player performance metrics.
-Scatter plots comparing player statistics to market value.
-
-Correlation matrices to identify which performance variables are most strongly associated with value.
-Position-based segmentation (Forwards, Midfielders, Defenders, Goalkeepers) to examine role-specific trends.
+- Correlation matrices to identify which performance variables are most strongly associated with value.
+  
+- Position-based segmentation (Forwards, Midfielders, Defenders, Goalkeepers) to examine role-specific trends.
 
 *Statistical Analysis*
 
